@@ -70,7 +70,7 @@ async def get_shortlink(link):
     if "http" == https: #if https == "http":
         https = "https"
         link = link.replace("http", https) #replacing http to https
-    if URL == "api.shareus.in":
+    if URL == "publicearn.com":
         url = f'https://{URL}/shortLink'
         params = {
             "token": API,
