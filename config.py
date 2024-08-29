@@ -27,8 +27,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://tgarun163:qgq7VlZ1a4Ke9Dn
 DB_NAME = os.environ.get("DATABASE_NAME", "Files-Batabase")
 
 #SHORTLINK
-SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
-SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
+SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "https://publicearn.com")
+SHORTLINK_API = os.environ.get('SHORTLINK_API', "00783f561c8cadaa50cec6028b799d1ef90e29cf")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001640099591"))
